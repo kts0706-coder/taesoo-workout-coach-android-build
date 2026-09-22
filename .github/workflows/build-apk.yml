@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Unpack Android project
-        run: unzip -q -o kim-taesoo-workout-coach-android.zip
+        run: unzip -q -o kim-taesoo-workout-coach-android-v13-source.zip
 
       - name: Set up Java 17
         uses: actions/setup-java@v4
