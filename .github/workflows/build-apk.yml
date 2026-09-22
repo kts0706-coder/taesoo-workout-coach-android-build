@@ -15,8 +15,8 @@ jobs:
       - name: Check out source
         uses: actions/checkout@v4
 
-      - name: Extract verified v2.7.0 source
-        run: unzip -q kim-taesoo-workout-coach-android-v18-source.zip
+      - name: Extract verified v2.8.0 source
+        run: unzip -q kim-taesoo-workout-coach-android-v19-source.zip
 
       - name: Set up Java 17
         uses: actions/setup-java@v4
