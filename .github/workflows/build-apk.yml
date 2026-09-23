@@ -25,6 +25,8 @@ jobs:
           unzip -q -o kim-taesoo-workout-coach-v3.6.0-photos.zip
           unzip -q -o kim-taesoo-workout-coach-v3.7.0-photos-1.zip
           unzip -q -o kim-taesoo-workout-coach-v3.7.0-photos-2.zip
+          echo "875bc5db5bc96f2c7b2bfda5f94181617b1a58128a02ec3df711b5b558b3c7c6  kim-taesoo-workout-coach-v3.7.1-sdk-fix.zip" | sha256sum -c -
+          unzip -q -o kim-taesoo-workout-coach-v3.7.1-sdk-fix.zip
 
       - name: Validate workout data and saved records
         run: |
