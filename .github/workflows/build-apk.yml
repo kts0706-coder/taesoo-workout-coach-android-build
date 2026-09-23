@@ -15,8 +15,8 @@ jobs:
       - name: Check out source
         uses: actions/checkout@v4
 
-      - name: Extract verified v3.3.0 source
-        run: unzip -q -o kim-taesoo-workout-coach-android-v27-source.zip
+      - name: Extract verified v3.4.0 source
+        run: unzip -q -o kim-taesoo-workout-coach-android-v28-source.zip
 
       - name: Set up Java 17
         uses: actions/setup-java@v4
@@ -36,6 +36,6 @@ jobs:
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: kim-taesoo-workout-coach-apk-v3.3.0
+          name: kim-taesoo-workout-coach-apk-v3.4.0
           path: android-app/app/build/outputs/apk/debug/app-debug.apk
           if-no-files-found: error
